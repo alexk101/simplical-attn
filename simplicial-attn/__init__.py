@@ -9,7 +9,7 @@ Main exports:
 - Triton kernels and reference implementations
 """
 
-from .simplical_attn import (
+from .simplicial_attn import (
     TwoSimplicialAttention, 
     TwoSimplicialAttentionFunction,
     two_simplicial_attention_reference,
