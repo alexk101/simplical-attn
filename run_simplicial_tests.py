@@ -10,7 +10,6 @@ This script runs all available tests:
 
 import sys
 import torch
-import warnings
 
 def main():
     print("🧪 2-Simplicial Attention - Comprehensive Test Suite")
@@ -28,7 +27,7 @@ def main():
     
     # Import test functions
     try:
-        from utils.simplical_attn import (
+        from simplicial import (
             run_all_correctness_tests,
             run_all_performance_tests, 
             quick_performance_test,
