@@ -1,0 +1,1 @@
+A repo testing some of the code from the [2-simplical attention](https://arxiv.org/pdf/2507.02754) paper.
